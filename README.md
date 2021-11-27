@@ -110,3 +110,7 @@ Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby f
 + React
 + Ant Design
 + Styled Component
+
+```
+npm install gh-pages --save-dev
+```
