@@ -1,11 +1,11 @@
 import * as React from 'react';
-import { Divider } from 'antd';
+import { Row, Col, Divider } from 'antd';
 import './subtitle.css'
 
 const Subtitle = ({title}) => {
     return (
-        <div>
-            <Divider>{title}</Divider>
+        <div className="Subtitle-container">
+            <Divider>{ title }</Divider>
         </div>
     )
 }
