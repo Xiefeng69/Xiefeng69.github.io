@@ -1,0 +1,60 @@
+@import '~antd/dist/antd.css';
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.intro-container {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*background-color: yellow;*/
+}
+
+.avatar-box {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 40px;
+}
+
+.avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.intro-box {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-box {
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .avatar-box {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 0px;
+  }
+  .avatar {
+    width: 100px;
+    height: 100px;
+  }
+  .intro-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button-box {
+    margin-top: 6px;
+  }
+}
