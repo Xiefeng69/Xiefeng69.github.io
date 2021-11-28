@@ -1,13 +1,14 @@
 import * as React from 'react';
+import * as style from './right.module.css';
 import Experience from '../components/experience';
 import Award from '../components/award';
-import * as style from './right.module.css';
+import Project from '../components/project';
 
 const Right = () => {
     return (
         <div className={style.rightcontainer}>
             <Experience />
-            <Experience />
+            <Project />
             <Award />
         </div>
     )
