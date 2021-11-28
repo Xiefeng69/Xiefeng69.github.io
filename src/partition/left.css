@@ -1,0 +1,9 @@
+.top-bar {
+    width: 100%;
+    background: blue;
+}
+
+.left-bar {
+    width: 240px;
+    background-color: green;
+}

@@ -1,22 +1,16 @@
 import * as React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import { Button } from 'antd'
-import './intro.css';
-import styled from 'styled-components';
+import './right.css';
 
-const Headline = styled.p`
-    font-size: 16px;
-    font-weight: 800;
-`
-
-const Intro = () => {
+const Right = () => {
     return (
         <div className="intro-container">
             <div className="avatar-box">
                 <StaticImage className="avatar" src="../images/avatar.png" />
             </div>
             <div className="intro-box">
-                <Headline>Hey guys, I am Xiefeng69 ~ </Headline>
+                <p>Hey guys, I am Xiefeng69 ~ </p>
                 <p>Now I am a master in NUDT majored in CS.</p>
                 <p>My interest is ML, Web development and cluster.</p>
                 <div className="button-box">
@@ -29,4 +23,4 @@ const Intro = () => {
     )
 }
 
-export default Intro
+export default Right

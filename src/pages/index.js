@@ -1,13 +1,12 @@
 import * as React from "react"
-import Mymenu from '../components/mymenu'
-import Intro from '../components/intro'
-import Experience from '../components/experience'
+import Right from '../partition/right'
+import Left from "../partition/left";
+import './index.css';
 
 const IndexPage = () => (
-  <div>
-    <Mymenu />
-    <Intro />
-    <Experience />
+  <div className="main">
+    <Left />
+    <Right />
   </div>
 )
 

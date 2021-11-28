@@ -1,0 +1,27 @@
+.main {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 899px) {
+    .main {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+    .main {
+        width: calc(100% - 20px);
+        margin: 0 auto;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .main {
+        width: 1160px;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+}
