@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+}
+
+.infocontainer {
+    padding-left: 10px;
+}
+
+.subinfo {
+    color: #666;
+    font-size: 14px;
+}
+
+.maininfo {
+    font-size: 16px;
+}
