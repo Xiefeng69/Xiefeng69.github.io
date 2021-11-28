@@ -1,0 +1,6 @@
+.rightcontainer {
+    width: 100%;
+    padding: 10px 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+}

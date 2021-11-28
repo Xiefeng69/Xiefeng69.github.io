@@ -1,7 +1,8 @@
 .main {
-    background-color: yellow;
+    /*background-color: yellow;*/
     display: flex;
     flex-direction: column;
+    font-family: 'Times New Roman', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 
 @media only screen and (max-width: 899px) {

@@ -1,15 +1,14 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-// import style from './leftbar.css';
 import * as style from "./leftbar.module.css"
 
 const Leftbar = () => {
     return (
         <div className={style.container}>
-            <StaticImage className={style.avatar} src="../images/avatar.png" />
+            <StaticImage src="../images/avatar.png" />
             <p className={style.name}>Xie Feng</p>
             <div className={style.buttoncontainer}>
-                <div>github</div>
+                <div><a href="#exp">github</a></div>
                 <div>mail</div>
                 <div>wechat</div>
             </div>

@@ -1,11 +1,13 @@
 import * as React from 'react';
-import { Row, Col, Divider } from 'antd';
-import './subtitle.css'
+import { Divider } from 'antd';
+import * as style from './subtitle.module.css';
 
 const Subtitle = ({title}) => {
     return (
-        <div className="Subtitle-container">
-            <Divider>{ title }</Divider>
+        <div className={style.subtitlecontainer}>
+            <Divider orientation="left">
+                <span className={style.subtitle}>{ title }</span>
+            </Divider>
         </div>
     )
 }
