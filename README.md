@@ -114,3 +114,9 @@ Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby f
 ```
 npm install gh-pages --save-dev
 ```
+
+Gatsby works with CSS Modules by default, no need for extra plugins.
+
+```
+import * as styles from './[componentName].module.css'
+```
