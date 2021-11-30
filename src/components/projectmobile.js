@@ -22,7 +22,7 @@ const ProjectMobile = (props) => {
             <div>
                 {
                     hasImage(props.extra) ? 
-                    <div className={style.projectimage}>
+                    <div className="logo">
                         <img src={props.extra.image} />
                     </div>
                     : null

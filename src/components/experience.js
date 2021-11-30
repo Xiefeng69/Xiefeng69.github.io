@@ -8,7 +8,9 @@ const Experience = () => {
         <div>
             <Subtitle title="Experience" />
             <div className={style.container}>
-                <StaticImage className={style.logo} src="../images/nudt.png" alt="NUDT" />
+                <div>
+                    <StaticImage className='logo' src="../images/nudt.png" alt="NUDT" />
+                </div>
                 <div className={style.infocontainer}>
                     <span className={style.subinfo}>2021.09 - present</span>
                     <br />
@@ -17,7 +19,9 @@ const Experience = () => {
             </div>
 
             <div className={style.container}>
-                <StaticImage className={style.logo} src="../images/xiaomi.png" alt="Xiaomi" />
+                <div>
+                    <StaticImage className='logo' src="../images/xiaomi.png" alt="Xiaomi" />
+                </div>
                 <div className={style.infocontainer}>
                     <span className={style.subinfo}>2020.09 - 2021.01</span>
                     <br />
@@ -26,7 +30,9 @@ const Experience = () => {
             </div>
 
             <div className={style.container} style={{marginBottom: '10px'}}>
-                <StaticImage className={style.logo} src="../images/dut.png" alt="DUT" />
+                <div>
+                    <StaticImage className='logo' src="../images/dut.png" alt="DUT" />
+                </div>
                 <div className={style.infocontainer}>
                     <span className={style.subinfo}>2017.09 - 2021.06</span>
                     <br />

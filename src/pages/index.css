@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+img {
+    margin: 0;
+}
+
 .main {
     /*background-color: yellow;*/
     display: flex;
@@ -17,6 +21,10 @@
     .main {
         width: 100%;
     }
+    .logo {
+        width: 44px;
+        
+    }
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1199px) {
@@ -28,6 +36,9 @@
         margin: 0 auto;
         flex-direction: row;
     }
+    .logo {
+        width: 46px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -38,5 +49,8 @@
         width: 1160px;
         margin: 0 auto;
         flex-direction: row;
+    }
+    .logo {
+        width: 46px;
     }
 }
