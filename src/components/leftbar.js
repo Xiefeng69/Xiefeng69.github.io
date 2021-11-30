@@ -1,5 +1,6 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
+import ContactButton from './contactbutton';
 import * as style from "./leftbar.module.css"
 
 const Leftbar = () => {
@@ -7,11 +8,7 @@ const Leftbar = () => {
         <div className={style.container}>
             <StaticImage src="../images/avatar.png" />
             <p className={style.name}>Xie Feng</p>
-            <div className={style.buttoncontainer}>
-                <div><a href="#exp">github</a></div>
-                <div>mail</div>
-                <div>wechat</div>
-            </div>
+            <ContactButton />
             <div className={style.anchorcontainer}>
                 <div>intro</div>
                 <div>education</div>

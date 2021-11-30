@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+import ContactButton from './contactbutton';
 import * as style from './topbar.module.css';
 
 const Topbar = () => {
@@ -12,11 +13,7 @@ const Topbar = () => {
                 <p>Hey guys, I am Xiefeng69 ~ </p>
                 <p>Now I am a master in NUDT majored in CS.</p>
                 <p>My interest is ML, Web development and cluster.</p>
-                <div className={style.buttoncontainer}>
-                    <div>github</div>
-                    <div>main</div>
-                    <div>wechat</div>
-                </div>
+                <ContactButton />
             </div>
         </div>
     )
