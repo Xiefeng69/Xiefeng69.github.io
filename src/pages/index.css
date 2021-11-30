@@ -16,7 +16,7 @@ img {
 
 @media only screen and (max-width: 899px) {
     html {
-        font-size: 16px;
+        font-size: 14px;
     }
     .main {
         width: 100%;
@@ -29,7 +29,7 @@ img {
 
 @media only screen and (min-width: 900px) and (max-width: 1199px) {
     html {
-        font-size: 18px;
+        font-size: 16px;
     }
     .main {
         width: calc(100% - 20px);
@@ -43,7 +43,7 @@ img {
 
 @media only screen and (min-width: 1200px) {
     html {
-        font-size: 20px;
+        font-size: 16px;
     }
     .main {
         width: 1160px;

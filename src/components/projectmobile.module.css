@@ -9,6 +9,11 @@
     border: 1px solid rgb(201, 201, 201);
 }
 
+.projectname {
+    font-size: 1rem;
+}
+
 .projecttime {
     color: #666;
+    font-size: 0.8rem;
 }

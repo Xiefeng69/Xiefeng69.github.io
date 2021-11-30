@@ -10,9 +10,17 @@
 
 .subinfo {
     color: #666;
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 .maininfo {
-    font-size: 16px;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 899px) {
+    .container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 14px;
+    }
 }
