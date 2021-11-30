@@ -1,0 +1,13 @@
+.container {
+    
+}
+
+.textontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.textinfo {
+    font-size: 0.8rem;
+    color: #333;
+}
