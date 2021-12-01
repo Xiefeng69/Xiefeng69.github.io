@@ -110,3 +110,31 @@ Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby f
 + React
 + Ant Design
 + Styled Component
+
+```
+npm install gh-pages --save-dev
+```
+
+Gatsby works with CSS Modules by default, no need for extra plugins.
+
+```
+import * as styles from './[componentName].module.css'
+```
+
+gatsby默认webpack打包，所有内容都是模块化引入，动态绑定静态图片会出现问题，所以需要动态require进来。
+第一种引入方式，webpack把当前图片当做资源文件打包，你可以在配置文件里面设置图片加载器，小与多少kb已base64码的格式打包，当大于某个kb大小的时候，webpack会把当前图片 也变编译到你的你的打包目录下面。
+
+第二种引入方式，你在css文件里面可以引用，因为css-loader会把资源文件一起打包， 而在js中这样引入，webpack只会当前的src当做字符串，并不会当做资源文件去处理，这样当你的代码- -旦打包到线上就会出现图片文件路径找不到的问题。
+————————————————
+版权声明：本文为CSDN博主「waillyer」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/waillyer/article/details/109615281
+
+```
+image: require('../images/miuiplus.png')
+import imgURL from '../static/img/unselected.png';
+//先import引入
+ 
+<img src={imgURL} />
+<img src={require('../static/img/unselected.png').default} />
+<img src="static/img/xx.img" />
+```

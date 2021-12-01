@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    margin: 0;
+}
+
+.main {
+    /*background-color: yellow;*/
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+@media only screen and (max-width: 899px) {
+    html {
+        font-size: 14px;
+    }
+    .main {
+        width: 100%;
+    }
+    .logo {
+        width: 44px;
+        
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+    html {
+        font-size: 16px;
+    }
+    .main {
+        width: calc(100% - 20px);
+        margin: 0 auto;
+        flex-direction: row;
+    }
+    .logo {
+        width: 46px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+    .main {
+        width: 1160px;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+    .logo {
+        width: 46px;
+    }
+}

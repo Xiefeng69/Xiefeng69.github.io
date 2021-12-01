@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.infocontainer {
+    padding-left: 10px;
+}
+
+.subinfo {
+    color: #666;
+    font-size: 0.8rem;
+}
+
+.maininfo {
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 899px) {
+    .container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 14px;
+    }
+}

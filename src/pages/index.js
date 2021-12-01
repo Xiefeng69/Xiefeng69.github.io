@@ -1,13 +1,21 @@
 import * as React from "react"
-import Mymenu from '../components/mymenu'
-import Intro from '../components/intro'
-import Experience from '../components/experience'
+import "antd/dist/antd.css";
+import Right from '../partition/right'
+import Left from "../partition/left";
+import Footer from '../partition/footer';
+import IsDesktop from "../utils/isdesktop";
+import './index.css';
 
 const IndexPage = () => (
   <div>
-    <Mymenu />
-    <Intro />
-    <Experience />
+    <div className="main">
+      <Left />
+      <IsDesktop>
+        <div style={{width:'24px'}}></div>
+      </IsDesktop>
+      <Right />
+    </div>
+    <Footer />
   </div>
 )
 

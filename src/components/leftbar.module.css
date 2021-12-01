@@ -1,0 +1,34 @@
+.container {
+    padding: 40px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.buttoncontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttoncontainer div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: crimson;
+}
+
+.anchorcontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.anchorcontainer div {
+    cursor: pointer;
+}

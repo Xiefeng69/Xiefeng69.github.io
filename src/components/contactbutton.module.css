@@ -1,0 +1,38 @@
+.buttoncontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttoncontainer div {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+/* 移动端button布局 */
+@media only screen and (max-width: 599px) {
+    .buttoncontainer {
+        width: auto;
+    }
+    .buttoncontainer div:first-child {
+        margin-right: 20px;
+    }
+
+    .buttoncontainer div:last-child {
+        margin-left: 20px;
+    }
+}
+/* pad端button布局 */
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+    .buttoncontainer {
+        justify-content: flex-start;
+    }
+    .buttoncontainer div:first-child {
+        margin-right: 20px;
+    }
+
+    .buttoncontainer div:last-child {
+        margin-left: 20px;
+    }
+}
