@@ -15,24 +15,10 @@
     .buttoncontainer {
         width: auto;
     }
-    .buttoncontainer div:first-child {
-        margin-right: 20px;
-    }
-
-    .buttoncontainer div:last-child {
-        margin-left: 20px;
-    }
 }
 /* pad端button布局 */
 @media only screen and (min-width: 600px) and (max-width: 899px) {
     .buttoncontainer {
         justify-content: flex-start;
-    }
-    .buttoncontainer div:first-child {
-        margin-right: 20px;
-    }
-
-    .buttoncontainer div:last-child {
-        margin-left: 20px;
     }
 }
