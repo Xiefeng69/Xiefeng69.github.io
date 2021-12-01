@@ -1,5 +1,6 @@
 import * as React from "react"
 import "antd/dist/antd.css";
+import { BackTop } from "antd";
 import Right from '../partition/right'
 import Left from "../partition/left";
 import Footer from '../partition/footer';
@@ -15,6 +16,7 @@ const IndexPage = () => (
       </IsDesktop>
       <Right />
     </div>
+    <BackTop visibilityHeight={150} />
     <Footer />
   </div>
 )
