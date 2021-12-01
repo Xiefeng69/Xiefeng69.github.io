@@ -4,7 +4,7 @@ p {
 }
 
 .container {
-  margin-top: 10px;
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
