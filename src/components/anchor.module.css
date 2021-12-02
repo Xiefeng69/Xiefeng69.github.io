@@ -1,4 +1,4 @@
-.container {
+/*.container {
     padding: 10px 10px 5px 10px;
     width: 100%;
     background: white;
@@ -9,4 +9,20 @@
     position: fixed;
     top: 0px;
     z-index: 100;
+}*/
+.anchorPart:empty {
+    display: none;
+}
+
+.anchorNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.anchorPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s linear;
 }
