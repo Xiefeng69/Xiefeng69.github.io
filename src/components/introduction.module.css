@@ -1,0 +1,14 @@
+.introcontainer {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    font-size: 1.1rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .introcontainer {
+      display: flex;
+      flex-direction: column;
+    }
+  }

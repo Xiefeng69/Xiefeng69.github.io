@@ -3,15 +3,6 @@ import React from "react";
 import * as style from './projectmobile.module.css';
 
 const ProjectMobile = (props) => {
-    const hasImage = (extra) => {
-        let keys = Object.keys(extra)
-        if (keys.includes('image')) {
-            console.log(extra.image)
-            return true
-        } else {
-            return false
-        }
-    }
     return (
         <div className={style.container}>
             <div className={style.projecttext}>
@@ -21,9 +12,9 @@ const ProjectMobile = (props) => {
             </div>
             <div>
                 {
-                    hasImage(props.extra) ? 
+                    props.image ? 
                     <div className="logo">
-                        <img src={props.extra.image} />
+                        <img src={props.image} />
                     </div>
                     : null
                 }

@@ -1,5 +1,5 @@
 .container {
-    
+    font-size: .9rem;
 }
 
 .textontainer {
@@ -7,7 +7,15 @@
     justify-content: center;
 }
 
-.textinfo {
-    font-size: 0.8rem;
-    color: #333;
+.blockone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocktwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

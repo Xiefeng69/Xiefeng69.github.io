@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import { Divider } from "antd";
-import styled from "styled-components";
+// import styled from "styled-components";
 import * as style from './anchor.module.css';
 
-const AnchorContainer = styled.div`
+/*const AnchorContainer = styled.div`
     width: 100%;
     background: white;
     padding: 12px 16px 12px 16px;
@@ -16,7 +16,7 @@ const AnchorContainer = styled.div`
     position: fixed;
     top: 0px;
     z-index: 100;
-`
+`*/
 
 const Anchor = () => {
     const [panelVisible, setPanelVisible] = useState(false)
@@ -35,32 +35,40 @@ const Anchor = () => {
         setPanelVisible(false)
     }
     const switchVisible = () => {
+        console.log(
+            'hi'
+        );
         setPanelVisible(!panelVisible)
     }
     return (
-        <AnchorContainer>
-            <div className={style.anchorNav}>
-                <div className={style.anchorInfo}>
-                    <StaticImage src='../images/avatar.png' style={{width: '34px'}} imgStyle={{borderRadius: '50%'}} />
-                    <span style={{fontWeight:'bold', fontSize:'1.2rem', marginLeft: '8px'}}>Xiefeng</span>
-                </div>
-                <StaticImage src='../images/list.png' style={{width: '24px'}} onClick={switchVisible} />
-            </div>
-            <div>
-                {
-                    panelVisible ?
-                    <div className={style.anchorPanel}>
-                        <Divider style={{margin: '0px', marginTop: '12px'}} />
-                        <p onClick={() => {scrollTo(0)}}>Experiences</p>
-                        <Divider style={{margin: '0px'}}  />
-                        <p onClick={() => {scrollTo(1)}}>Projects</p>
-                        <Divider style={{margin: '0px'}} />
-                        <p onClick={() => {scrollTo(2)}}>Awards</p>
+        <div className={style.container}>
+            <div className={style.solidContent}></div>
+            <div className={style.anchorContainer}>
+                <div className={style.anchorNav}>
+                    <div className={style.anchorInfo}>
+                        <StaticImage src='../images/avatar.png' style={{width: '34px'}} imgStyle={{borderRadius: '50%'}} />
+                        <span style={{fontWeight:'bold', fontSize:'1.2rem', marginLeft: '8px'}}>Xiefeng</span>
                     </div>
-                    : null
-                }
-            </div>
-        </AnchorContainer> 
+                    <div className={style.anchorSwitch} onClick={switchVisible}>
+                        <StaticImage src='../images/list.png' style={{width: '24px'}} />
+                    </div>
+                </div>
+                <div>
+                    {
+                        panelVisible ?
+                        <div className={style.anchorPanel}>
+                            <Divider style={{margin: '0px', marginTop: '12px'}} />
+                            <p onClick={() => {scrollTo(0)}}>Experiences</p>
+                            <Divider style={{margin: '0px'}}  />
+                            <p onClick={() => {scrollTo(1)}}>Projects</p>
+                            <Divider style={{margin: '0px'}} />
+                            <p onClick={() => {scrollTo(2)}}>Awards</p>
+                        </div>
+                        : null
+                    }
+                </div>
+            </div> 
+        </div>
     )
 }
 

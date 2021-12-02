@@ -2,6 +2,7 @@ import * as React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import ContactButton from './contactbutton';
 import Anchor from './anchor';
+import Introduction from './introduction';
 import * as style from './topbar.module.css';
 
 const Topbar = () => {
@@ -10,14 +11,9 @@ const Topbar = () => {
             <Anchor />
             <div className={style.container}>
                 <div className={style.avatarcontainer}>
-                    <StaticImage className={style.avatar} src="../images/avatar.png" />
+                    <StaticImage className={style.avatar} imgStyle={{borderRadius: '50%'}} src="../images/avatar.png" />
                 </div>
-                <div className={style.introcontainer}>
-                    <p>Hey guys, I am Xiefeng69 ~ </p>
-                    <p>Now I am a master in NUDT majored in CS.</p>
-                    <p>My interest is ML, Web development and cluster.</p>
-                    <ContactButton />
-                </div>
+                <Introduction />
             </div>
         </div>
     )
