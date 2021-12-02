@@ -1,11 +1,13 @@
 import React, { useState } from "react";
+import { StaticImage } from "gatsby-plugin-image";
+import { Divider } from "antd";
 import styled from "styled-components";
 import * as style from './anchor.module.css';
 
 const AnchorContainer = styled.div`
-    padding: 10px 10px 5px 10px;
     width: 100%;
     background: white;
+    padding: 12px 16px 12px 16px;
     box-shadow: 0 4px 13px -3px rgb(0 0 0 / 10%);
     border-bottom: 1px solid #d2d2d2;
     display: flex;
@@ -27,8 +29,10 @@ const Anchor = () => {
         window.pageYOffset = scrollTarget
         */
         document.getElementsByClassName('anchorlink')[idx].scrollIntoView({
-            behavior: "smooth"
+            behavior: "smooth",
+            block: 'center'
         })
+        setPanelVisible(false)
     }
     const switchVisible = () => {
         setPanelVisible(!panelVisible)
@@ -36,18 +40,22 @@ const Anchor = () => {
     return (
         <AnchorContainer>
             <div className={style.anchorNav}>
-                <span onClick={() => {scrollTo(0)}}>Experiences</span>
-                <p onClick={() => {scrollTo(1)}}>Projects</p>
-                <p onClick={() => {scrollTo(2)}}>Awards</p>
-                <p onClick={switchVisible}>x</p>
+                <div className={style.anchorInfo}>
+                    <StaticImage src='../images/avatar.png' style={{width: '34px'}} imgStyle={{borderRadius: '50%'}} />
+                    <span style={{fontWeight:'bold', fontSize:'1.2rem', marginLeft: '8px'}}>Xiefeng</span>
+                </div>
+                <StaticImage src='../images/list.png' style={{width: '24px'}} onClick={switchVisible} />
             </div>
-            <div className={style.anchorPart}>
+            <div>
                 {
                     panelVisible ?
                     <div className={style.anchorPanel}>
-                        <span>Experiences</span>
-                        <span>Projects</span>
-                        <span>Awards</span>
+                        <Divider style={{margin: '0px', marginTop: '12px'}} />
+                        <p onClick={() => {scrollTo(0)}}>Experiences</p>
+                        <Divider style={{margin: '0px'}}  />
+                        <p onClick={() => {scrollTo(1)}}>Projects</p>
+                        <Divider style={{margin: '0px'}} />
+                        <p onClick={() => {scrollTo(2)}}>Awards</p>
                     </div>
                     : null
                 }
