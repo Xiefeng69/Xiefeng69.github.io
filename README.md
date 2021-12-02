@@ -1,12 +1,12 @@
 # Xiefeng69.github.io
 
-You can visit my website by clicking [here](!https://xiefeng69.github.io/).
+You can visit my website by clicking [here](https://xiefeng69.github.io/).
 
 网址：`https://xiefeng69.github.io/`
 
 ## 🔍 Technologies Stack
 
-+ Framework: [Gatsby](!https://www.gatsbyjs.com)
++ Framework: [Gatsby](https://www.gatsbyjs.com)
 + JS framework: React
 + UI framework: AntDesign
 + 响应式开发：@media / rem / AntDesign Grid component
@@ -47,8 +47,8 @@ Gatsby works with CSS Modules by default, no need for extra plugins.
 import * as styles from './[componentName].module.css'
 ```
 
-关于静态图片打包关注: [here](!https://blog.csdn.net/waillyer/article/details/109615281)
+关于静态图片打包关注: [here](https://blog.csdn.net/waillyer/article/details/109615281)
 
 ## 📒 Write in the last
 
-如果有任何适配、兼容、图像清晰度、文案错误等，请您联系我，我将十分感谢🙏
+如果有任何适配、兼容、图像清晰度、文案错误等，请您联系我进行更改，我将十分感谢🙏
