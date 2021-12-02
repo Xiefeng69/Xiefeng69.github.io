@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Xiefeng69's HomePage`,
-    description: `Hi guys, this is Xiefeng69's HomePage`,
+    title: `Xiefeng's HomePage`,
+    description: `Hi guys, this is Xiefeng's HomePage`,
     author: `Xiefeng69`,
     //siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
@@ -37,7 +37,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/avatar.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-styled-components`,

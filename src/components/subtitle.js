@@ -4,7 +4,7 @@ import * as style from './subtitle.module.css';
 
 const Subtitle = ({title}) => {
     return (
-        <div className={style.subtitlecontainer}>
+        <div className={style.subtitlecontainer} className="anchorlink">
             <Divider orientation="left">
                 <span className={style.subtitle}>{ title }</span>
             </Divider>

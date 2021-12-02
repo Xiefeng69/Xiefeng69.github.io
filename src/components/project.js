@@ -13,7 +13,7 @@ const Project = () => {
             <IsMobile>
                 {
                     getProjectInfo().map((item, index) => {
-                        return (<ProjectMobile key={index} time={item.time} name={item.name} extra={item.extraInfo} />)
+                        return (<ProjectMobile key={index} time={item.time} name={item.name} image={item.image} extra={item.extraInfo} />)
                     })
                 }
             </IsMobile>

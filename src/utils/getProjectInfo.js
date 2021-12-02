@@ -2,6 +2,18 @@ const getProjectInfo = () => {
     //static/miuiplus.webp
     return [
         {
+            time: '2021.12',
+            name: 'Xiefeng.github.io (Personal Website)',
+            description: '',
+            image: '/static/gatsby.png',
+            extraInfo: 
+            {
+                'url': 'https://xiefeng69.github.io/',
+                'code': 'https://github.com/Xiefeng69/Xiefeng69.github.io/tree/dev'
+            }
+        
+        },
+        {
             time: '2020.09 - 2021.06',
             name: 'Intelligent Meter Reading System based on Faster RCNN',
             description: '',
@@ -14,9 +26,9 @@ const getProjectInfo = () => {
             time: '2020.12.28',
             name: 'MIUI Plus Official Website',
             description: '',
+            image: '/static/miuiplus.webp',
             extraInfo: 
             {
-                'image': '/static/miuiplus.webp',
                 'url': 'https://plus.miui.com'
             }
         
@@ -25,9 +37,9 @@ const getProjectInfo = () => {
             time: '2020.12.28',
             name: 'MIUI 12.5 Official Website',
             description: '',
+            image: '/static/miui12half.png',
             extraInfo: 
             {
-                'image': '/static/miui12half.png',
                 'url': 'https://home.miui.com'
             }
         },

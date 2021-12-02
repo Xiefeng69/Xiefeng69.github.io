@@ -14,7 +14,7 @@ const Experience = () => {
                 <div className={style.infocontainer}>
                     <span className={style.subinfo}>2021.09 - present</span>
                     <br />
-                    <span className={style.maininfo}>National University of Defense Technology, <i>Master.</i></span>
+                    <span className={style.maininfo}>National University of Defense Technology, <i>Master Candidate.</i></span>
                 </div>
             </div>
 
@@ -25,7 +25,7 @@ const Experience = () => {
                 <div className={style.infocontainer}>
                     <span className={style.subinfo}>2020.09 - 2021.01</span>
                     <br />
-                    <span className={style.maininfo}>Xiaomi Technology Co., Ltd., Mi Group-1<i>Software Development Intern.</i></span>
+                    <span className={style.maininfo}>Xiaomi Technology Co., Ltd., Mi Group-1, <i>Software Development Intern.</i></span>
                 </div>
             </div>
 

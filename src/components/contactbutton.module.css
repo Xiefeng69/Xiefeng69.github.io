@@ -1,4 +1,5 @@
 .buttoncontainer {
+    margin-top: 10px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -13,26 +14,12 @@
 /* 移动端button布局 */
 @media only screen and (max-width: 599px) {
     .buttoncontainer {
-        width: auto;
-    }
-    .buttoncontainer div:first-child {
-        margin-right: 20px;
-    }
-
-    .buttoncontainer div:last-child {
-        margin-left: 20px;
+        justify-content: flex-start;
     }
 }
 /* pad端button布局 */
 @media only screen and (min-width: 600px) and (max-width: 899px) {
     .buttoncontainer {
         justify-content: flex-start;
-    }
-    .buttoncontainer div:first-child {
-        margin-right: 20px;
-    }
-
-    .buttoncontainer div:last-child {
-        margin-left: 20px;
     }
 }

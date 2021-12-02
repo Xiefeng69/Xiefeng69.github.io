@@ -4,51 +4,22 @@ p {
 }
 
 .container {
-  margin-top: 10px;
+  margin-top: 25px;
+  padding: 0px 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  /*background-color: yellow;*/
+  font-size: 1.1rem;
 }
 
 .avatarcontainer {
   display: flex;
-  flex-direction: row-reverse;
   margin-right: 40px;
 }
 
 .avatar {
   width: 180px;
   height: 180px;
-  border-radius: 50%;
-}
-
-.introcontainer {
-  /*margin-left: 10px;*/
-  display: flex;
-  flex-direction: column;
-}
-
-.buttoncontainer {
-  margin-top: 5px;
-  display: flex;
-  flex-direction: row;
-}
-
-.buttoncontainer div {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: crimson;
-}
-
-.buttoncontainer div:first-child {
-  margin-right: 20px;
-}
-
-.buttoncontainer div:last-child {
-  margin-left: 20px;
 }
 
 /* 更加细粒度地适配iPhone等移动设备 */
@@ -56,20 +27,11 @@ p {
   .container {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
   }
   .avatarcontainer {
-    display: flex;
-    flex-direction: row-reverse;
     margin-right: 0px;
-  }
-  .avatar {
-    width: 100px;
-    height: 100px;
-  }
-  .introcontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: none;
   }
   .buttoncontainer {
     margin-top: 6px;

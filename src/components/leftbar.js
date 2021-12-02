@@ -9,11 +9,17 @@ const Leftbar = () => {
             <StaticImage src="../images/avatar.png" />
             <p className={style.name}>Xie Feng</p>
             <ContactButton />
-            <div className={style.anchorcontainer}>
-                <div>intro</div>
-                <div>education</div>
-                <div>project</div>
-            </div>
+            {
+                /* 
+                
+                <div className={style.anchorcontainer}>
+                    <div>intro</div>
+                    <div>education</div>
+                    <div>project</div>
+                </div>
+                
+                */
+            }
         </div>
     )
 }

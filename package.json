@@ -20,8 +20,9 @@
     "gatsby-transformer-sharp": "^4.2.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
+    "react-portal": "^4.2.1",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
@@ -40,7 +41,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gh-pages -d public -b master"
   },
   "repository": {
     "type": "git",

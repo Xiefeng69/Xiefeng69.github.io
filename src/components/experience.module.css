@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 24px;
+    font-size: 1.1rem;
 }
 
 .infocontainer {
@@ -10,11 +11,11 @@
 
 .subinfo {
     color: #666;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .maininfo {
-    font-size: 1rem;
+    
 }
 
 @media only screen and (max-width: 899px) {
