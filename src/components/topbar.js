@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import ContactButton from './contactbutton';
 import Anchor from './anchor';
 import Introduction from './introduction';
 import * as style from './topbar.module.css';
