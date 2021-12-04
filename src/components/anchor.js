@@ -43,6 +43,11 @@ const Anchor = () => {
     return (
         <div className={style.container}>
             <div className={style.solidContent}></div>
+            {
+                panelVisible ?
+                <div className={style.anchorBackground} onClick={switchVisible}></div>
+                : null
+            }
             <div className={style.anchorContainer}>
                 <div className={style.anchorNav}>
                     <div className={style.anchorInfo}>

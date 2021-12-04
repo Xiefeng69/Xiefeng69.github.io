@@ -3,7 +3,7 @@ const getProjectInfo = () => {
     return [
         {
             time: '2021.12',
-            name: 'Xiefeng.github.io (Personal Website)',
+            name: 'Xiefeng69.github.io (Personal Website)',
             description: '',
             image: '/static/gatsby.png',
             extraInfo: 

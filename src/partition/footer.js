@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
             <div className={style.blocktwo}>
                 <span>Copyright&copy;Xiefeng69.github.io</span>
-                <span style={{textAlign: 'center', color: '#999', lineHeight: '1', marginTop: '3px', marginBottom: '15px'}}>If you find any problems on this website, such as adaptation, blurred image, copywriting error, please contact me</span>
+                <span style={{textAlign: 'center', color: '#999', lineHeight: '1', marginTop: '3px', marginBottom: '15px'}}>If you find any problems on this website, such as adaptation, blurred image, copywriting error, please contact me or create an issue in <a href="https://github.com/Xiefeng69/Xiefeng69.github.io/issues">here</a></span>
             </div>
         </div>
     )
