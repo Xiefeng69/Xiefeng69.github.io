@@ -6,7 +6,7 @@ import * as style from './experience.module.css';
 const Experience = () => {
     return (
         <div>
-            <Subtitle title="Experience" />
+            <Subtitle title="Experiences" />
             <div className={style.container}>
                 <div>
                     <StaticImage className='logo' src="../images/nudt.png" alt="NUDT" />

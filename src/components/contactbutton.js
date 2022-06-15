@@ -21,7 +21,7 @@ const ContactButton = () => {
     }
     return (
         <div className={style.buttoncontainer}>
-            <div>
+            <div className={style.containeritem}>
                 <a href="https://github.com/Xiefeng69" target="_blank">
                     <StaticImage src="../images/github.png" />
                 </a>
@@ -29,15 +29,21 @@ const ContactButton = () => {
             <IsMobile>
                 <div style={{width: '20px'}}></div> 
             </IsMobile>
-            <div onClick={() => {copyInfo('Wechat', 'xf16943')}}>
+            <div onClick={() => {copyInfo('Wechat', 'xf16943')}} className={style.containeritem}>
                 <StaticImage src="../images/wechat.png" />
             </div>
             <IsMobile>
                 <div style={{width: '20px'}}></div>
             </IsMobile>
-            <div onClick={() => copyInfo('email', 'xiefeng0526@foxmail.com')}>
+            <div onClick={() => copyInfo('email', 'xiefeng0526@foxmail.com')} className={style.containeritem}>
                 <StaticImage src="../images/email.png" />
             </div>
+            <IsMobile>
+                <div style={{width: '20px'}}></div>
+            </IsMobile>
+            <IsMobile>
+                <a href="/static/xiefeng-resume-english.pdf" target="_blank" style={{color:'black', fontWeight:'bold'}}>[CV (English)]</a>
+            </IsMobile>
         </div>
     )
 }

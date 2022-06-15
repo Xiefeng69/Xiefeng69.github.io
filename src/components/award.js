@@ -6,7 +6,7 @@ const Award = () => {
     return (
         <div>
             <Subtitle title="Awards" />
-            <ul>
+            <ul style={{lineHeight:1}}>
                 {
                     getAwardInfo().map((item, index) => {
                         return (<li style={{fontSize:'1.1rem'}} key={index}>{`${item.time}, ${item.name}.`}</li>)   
