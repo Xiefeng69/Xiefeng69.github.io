@@ -29,7 +29,7 @@ Build the project:
 ```
 npm run build
 ```
-Deploy the project. In deploy step, we use **gh-pages** to deploy our pages to the github automatically.
+Deploy the project. In deploy step, we use **gh-pages** to deploy our pages to the github automatically. Before run deply, you need to run `Build` command.
 ```
 npm install gh-pages --save-dev
 npm run deploy

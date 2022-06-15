@@ -40,7 +40,7 @@ const getProjectInfo = () => {
             image: '/static/miui12half.png',
             extraInfo: 
             {
-                'Link': 'https://home.miui.com'
+                'Link': 'https://baike.baidu.com/item/MIUI%2012.5/55628305?fr=aladdin'
             }
         },
     ]
