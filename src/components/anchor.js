@@ -63,11 +63,13 @@ const Anchor = () => {
                         panelVisible ?
                         <div className={style.anchorPanel}>
                             <Divider style={{margin: '0px', marginTop: '12px'}} />
-                            <p onClick={() => {scrollTo(0)}}>Experiences</p>
+                            <p onClick={() => {scrollTo(1)}}>Experiences</p>
                             <Divider style={{margin: '0px'}}  />
-                            <p onClick={() => {scrollTo(1)}}>Projects</p>
+                            <p onClick={() => {scrollTo(2)}}>Publications</p>
                             <Divider style={{margin: '0px'}} />
-                            <p onClick={() => {scrollTo(2)}}>Awards</p>
+                            <p onClick={() => {scrollTo(3)}}>Projects</p>
+                            <Divider style={{margin: '0px'}} />
+                            <p onClick={() => {scrollTo(4)}}>Awards</p>
                         </div>
                         : null
                     }

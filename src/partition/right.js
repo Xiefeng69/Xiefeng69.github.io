@@ -5,6 +5,8 @@ import Award from '../components/award';
 import Project from '../components/project';
 import Introduction from '../components/introduction';
 import IsDesktop from '../utils/isdesktop';
+import Publication from '../components/publication';
+import Whatnew from '../components/whatnew';
 
 const Right = () => {
     return (
@@ -12,7 +14,9 @@ const Right = () => {
             <IsDesktop>
                 <Introduction />
             </IsDesktop>
+            <Whatnew />
             <Experience />
+            <Publication />
             <Project />
             <Award />
         </div>

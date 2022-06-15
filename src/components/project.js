@@ -18,7 +18,7 @@ const Project = () => {
                 }
             </IsMobile>
             <IsDesktop>
-                <ul>
+                <ul style={{lineHeight:1}}>
                     {
                         getProjectInfo().map((item, index) => {
                             return (<ProjectDesktop key={index} time={item.time} name={item.name} extra={item.extraInfo} />)
