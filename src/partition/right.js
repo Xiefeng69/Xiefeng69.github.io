@@ -7,6 +7,8 @@ import Introduction from '../components/introduction';
 import IsDesktop from '../utils/isdesktop';
 import Publication from '../components/publication';
 import Whatnew from '../components/whatnew';
+import IsMobile from '../utils/ismobile';
+import Friendship from '../components/Friendlink';
 
 const Right = () => {
     return (
@@ -19,6 +21,9 @@ const Right = () => {
             <Publication />
             <Project />
             <Award />
+            <IsMobile>
+                <Friendship />
+            </IsMobile>
         </div>
     )
 }
