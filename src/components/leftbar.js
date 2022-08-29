@@ -15,7 +15,7 @@ const Leftbar = () => {
                     Location: Hunan, China
                 </li>
                 <li>
-                    Github: Xiefeng69
+                    <a href="https://github.com/Xiefeng69" target="_blank" style={{color:'black'}}>Github: Xiefeng69</a>
                 </li>
                 <li>
                     <a href="https://www.researchgate.net/profile/Feng-Xie-42/research" target="_blank" style={{color:'black'}}>Research Gate</a>
