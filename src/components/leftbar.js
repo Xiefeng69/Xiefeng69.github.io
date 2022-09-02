@@ -41,6 +41,9 @@ const Leftbar = () => {
                     </ul>
                 </div>
             </IsDesktop>
+            <IsDesktop>
+                <a href="https://clustrmaps.com/site/1bq5e" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=ffffff&w=300&t=tt&d=V6j_ThBGyW4Y8xE9t3wS156mTdcfePJdgGHNMtjr-fg&co=2d78ad&ct=ffffff" /></a>
+            </IsDesktop>
             {
                 /* 
                 
