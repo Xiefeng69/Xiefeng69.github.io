@@ -15,7 +15,7 @@ const Leftbar = () => {
                     Location: Hunan, China
                 </li>
                 <li>
-                    Github: Xiefeng69
+                    <a href="https://github.com/Xiefeng69" target="_blank" style={{color:'black'}}>Github: Xiefeng69</a>
                 </li>
                 <li>
                     <a href="https://www.researchgate.net/profile/Feng-Xie-42/research" target="_blank" style={{color:'black'}}>Research Gate</a>
@@ -40,6 +40,9 @@ const Leftbar = () => {
                         </li>
                     </ul>
                 </div>
+            </IsDesktop>
+            <IsDesktop>
+                <a href="https://clustrmaps.com/site/1bq5e" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=ffffff&w=300&t=tt&d=V6j_ThBGyW4Y8xE9t3wS156mTdcfePJdgGHNMtjr-fg&co=2d78ad&ct=ffffff" /></a>
             </IsDesktop>
             {
                 /* 
