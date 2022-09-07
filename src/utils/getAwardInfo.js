@@ -1,8 +1,12 @@
 const getAwardInfo = () => {
     return [
         {
+            'time': '2022.09',
+            'name': 'Outstanding Student Award of National University of Defense Technology'
+        },
+        {
             'time': '2021.11',
-            'name': 'First-Class Freshman Scholarship，National University of Defense Technology'
+            'name': 'First-Class Freshman Scholarship, National University of Defense Technology'
         },
         {
             'time': '2021.05',
