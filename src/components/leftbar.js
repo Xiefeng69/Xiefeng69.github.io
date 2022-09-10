@@ -7,7 +7,7 @@ import IsDesktop from "../utils/isdesktop";
 const Leftbar = () => {
     return (
         <div className={style.container}>
-            <StaticImage src="../images/avatar.png" />
+            <StaticImage src="../images/avatar.png" alt="avatar"/>
             <p className={style.name}>Xie Feng</p>
             <ContactButton />
             <ul style={{marginTop: '16px', fontSize: '1.0rem', lineHeight: 1}}>
