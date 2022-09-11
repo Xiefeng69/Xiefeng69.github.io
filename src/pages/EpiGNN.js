@@ -16,7 +16,7 @@ const EpiGNN = () => {
             <div className="main">
                 <Left content={content} />
                 <IsDesktop>
-                    <div style={{width:'24px'}}></div>
+                    <div style={{width:'14px'}}></div>
                 </IsDesktop>
                 <div className="rightcontainer">
                     <div style={{fontSize: '1.6rem', fontWeight: '600', lineHeight: '1.3'}}>EpiGNN: Exploring Spatial Transmission with Graph Neural Network for Regional Epidemic Forecasting</div>
