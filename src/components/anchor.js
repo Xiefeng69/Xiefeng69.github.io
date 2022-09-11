@@ -50,7 +50,7 @@ const Anchor = () => {
             }
             <div className={style.anchorContainer}>
                 <div className={style.anchorNav}>
-                    <div className={style.anchorInfo}>
+                    <div className={style.anchorInfo} onClick={()=>{window.open("/","_self")}}>
                         <StaticImage src='../images/avatar.png' style={{width: '34px'}} imgStyle={{borderRadius: '50%'}} alt="avatar" />
                         <span style={{fontWeight:'bold', fontSize:'1.2rem', marginLeft: '8px'}}>Xiefeng</span>
                     </div>

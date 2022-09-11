@@ -75,7 +75,7 @@ const Publication = () => {
                     (getPublicationInfo(types).map((item, index) => {
                         return (
                             <li key={index} attr={item}>
-                                {item.author}
+                                <span dangerouslySetInnerHTML={{__html: item.author}}></span>
                                 &nbsp;"{item.title}".
                                 &nbsp;<span style={{fontStyle:'italic'}}>{item.venues}</span>, 
                                 &nbsp;<span style={{fontWeight:'bold'}}>{item.abbr} </span>({item.ccf}) 
@@ -84,6 +84,9 @@ const Publication = () => {
                                 ):null}
                                 {hasExtra(item.code)?(
                                      <a href={item.code} target="_blank">[Code]</a>
+                                ):null}
+                                {hasExtra(item.page)?(
+                                     <a href={item.page}>[Page]</a>
                                 ):null}
                             </li>
                         )

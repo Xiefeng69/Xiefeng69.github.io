@@ -14,11 +14,14 @@ const Leftbar = () => {
                 <li>
                     Location: Hunan, China
                 </li>
-                <li>
+                {/* <li>
                     <a href="https://github.com/Xiefeng69" target="_blank" style={{color:'black'}}>Github: Xiefeng69</a>
-                </li>
+                </li> */}
                 <li>
                     <a href="https://www.researchgate.net/profile/Feng-Xie-42/research" target="_blank" style={{color:'black'}}>Research Gate</a>
+                </li>
+                <li>
+                    Publication Gallary
                 </li>
                 <li>
                     <a href="/static/xiefeng-resume-english.pdf" target="_blank" style={{color:'black', fontWeight:'bold'}}>[CV (English)]</a>
