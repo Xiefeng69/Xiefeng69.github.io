@@ -18,7 +18,7 @@ const EpiGNN = () => {
                     <div style={{width:'24px'}}></div>
                 </IsDesktop>
                 <div className="rightcontainer">
-                    <div style={{fontSize: '1.6rem', fontWeight: '600'}}>EpiGNN: Exploring Spatial Transmission with Graph Neural Network for Regional Epidemic Forecasting</div>
+                    <div style={{fontSize: '1.6rem', fontWeight: '600', lineHeight: '1.2'}}>EpiGNN: Exploring Spatial Transmission with Graph Neural Network for Regional Epidemic Forecasting</div>
                     <div style={{fontSize: '1rem'}}>Feng Xie, Zhong Zhang, Liang Li, Bin Zhou and Yusong Tan</div>
                     <div style={{fontSize: '1rem'}}>Published in <span style={{fontStyle:'italic'}}>The European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD2022)</span></div>
                     <div style={{marginTop: '8px'}}>

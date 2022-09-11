@@ -78,7 +78,7 @@ const Publication = () => {
                                 <span dangerouslySetInnerHTML={{__html: item.author}}></span>
                                 &nbsp;"{item.title}".
                                 &nbsp;<span style={{fontStyle:'italic'}}>{item.venues}</span>, 
-                                &nbsp;<span style={{fontWeight:'bold'}}>{item.abbr} </span>({item.ccf}) 
+                                &nbsp;<span style={{fontWeight:'bold'}}>{item.abbr} </span>({item.ccf})&nbsp; 
                                 {hasExtra(item.pdf)?(
                                     <a href={item.pdf} target="_blank">[PDF]</a>
                                 ):null}

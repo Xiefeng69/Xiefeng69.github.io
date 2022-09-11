@@ -18,7 +18,7 @@ const EpiGNN = () => {
                     <div style={{width:'24px'}}></div>
                 </IsDesktop>
                 <div className="rightcontainer">
-                    <div style={{fontSize: '1.6rem', fontWeight: '600'}}>Inter- and Intra-Series Embeddings Fusion Network for Epidemiological Forecasting</div>
+                    <div style={{fontSize: '1.6rem', fontWeight: '600', lineHeight: '1.2'}}>Inter- and Intra-Series Embeddings Fusion Network for Epidemiological Forecasting</div>
                     <div style={{fontSize: '1rem'}}>Feng Xie, Zhong Zhang, Xuechen Zhao, Bin Zhou and Yusong Tan</div>
                     <div style={{fontSize: '1rem'}}>Published in <span style={{fontStyle:'italic'}}>The 34th International Conference on Software Engineering & Knowledge Engineering (SEKE2022)</span></div>
                     <div style={{marginTop: '8px'}}>
