@@ -23,20 +23,20 @@ const ContactButton = () => {
         <div className={style.buttoncontainer}>
             <div className={style.containeritem}>
                 <a href="https://github.com/Xiefeng69" target="_blank">
-                    <StaticImage src="../images/github.png" />
+                    <StaticImage src="../images/github.png" alt="github" />
                 </a>
             </div>
             <IsMobile>
                 <div style={{width: '20px'}}></div> 
             </IsMobile>
             <div onClick={() => {copyInfo('Wechat', 'xf16943')}} className={style.containeritem}>
-                <StaticImage src="../images/wechat.png" />
+                <StaticImage src="../images/wechat.png" alt="wechat" />
             </div>
             <IsMobile>
                 <div style={{width: '20px'}}></div>
             </IsMobile>
             <div onClick={() => copyInfo('email', 'xiefeng0526@foxmail.com')} className={style.containeritem}>
-                <StaticImage src="../images/email.png" />
+                <StaticImage src="../images/email.png" alt="email" />
             </div>
             <IsMobile>
                 <div style={{width: '20px'}}></div>

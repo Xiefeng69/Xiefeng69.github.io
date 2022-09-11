@@ -1,3 +1,47 @@
 .contrainer {
     font-size: 1.1rem;
 }
+
+.tag {
+    background: #999999;
+    margin-left: 9px;
+    margin-right: 9px;
+    border-radius: 10px;
+    padding: 2px 6px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.isActive {
+    background: #666666;
+    margin-left: 9px;
+    margin-right: 9px;
+    border-radius: 10px;
+    padding: 2px 6px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.tagM {
+    background: #999999;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 10px;
+    padding: 2px 4px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.isActiveM {
+    background: #666666;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 10px;
+    padding: 2px 4px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
