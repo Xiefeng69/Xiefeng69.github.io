@@ -5,12 +5,12 @@ import Leftbar from "../components/leftbar";
 import Topbar from "../components/topbar";
 import * as style from './left.module.css';
 
-const Left = () => {
+const Left = (props) => {
     return (
         <>
             <IsMobile>
                 <div className={style.topbar}>
-                    <Topbar />
+                    <Topbar content={props.content} />
                 </div>
             </IsMobile>
             <IsDesktop>

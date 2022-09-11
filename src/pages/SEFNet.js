@@ -10,10 +10,11 @@ import './blogTemplate.css';
 import IsMobile from "../utils/ismobile";
 
 const EpiGNN = () => {
+    const content = "page"
     return (
         <div>
             <div className="main">
-                <Left />
+                <Left content={content} />
                 <IsDesktop>
                     <div style={{width:'24px'}}></div>
                 </IsDesktop>
