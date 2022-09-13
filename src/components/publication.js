@@ -76,9 +76,9 @@ const Publication = () => {
                         return (
                             <li key={index} attr={item}>
                                 <span dangerouslySetInnerHTML={{__html: item.author}}></span>
-                                &nbsp;"{item.title}".
-                                &nbsp;<span style={{fontStyle:'italic'}}>{item.venues}</span>, 
-                                &nbsp;<span style={{fontWeight:'bold'}}>{item.abbr} </span>({item.ccf})&nbsp; 
+                                &nbsp;<span>"{item.title}". </span>
+                                <span style={{fontStyle:'italic'}}>{item.venues}, </span>
+                                <span style={{fontWeight:'bold'}}>{item.abbr} </span>({item.ccf})&nbsp; 
                                 {hasExtra(item.pdf)?(
                                     <a href={item.pdf} target="_blank">[PDF]</a>
                                 ):null}

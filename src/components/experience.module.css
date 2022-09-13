@@ -1,8 +1,8 @@
 .container {
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
-    font-size: 1.1rem;
+    margin-bottom: 14px;
+    font-size: 1rem;
 }
 
 .infocontainer {

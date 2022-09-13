@@ -7,7 +7,7 @@ const getExtraInfo = (extra) => {
 
 const ProjectDesktop = (props) => {
     return (
-        <li style={{fontSize:'1.1rem'}}>
+        <li style={{fontSize:'1rem'}}>
             { `${props.time}, ${props.name}, ` }
             {
                 getExtraInfo(props.extra).map((item, index)=><span key={index}>[<a href={props.extra[item]} target="_blank">{item}</a>]</span>)
