@@ -11,7 +11,7 @@ img {
     /*background-color: yellow;*/
     display: flex;
     flex-direction: column;
-    font-family: Optima, Avenir, Calibri, Arial, sans-serif;
+    font-family: Optima, "Times New Roman", Avenir, Calibri, Arial, sans-serif;
     color: #333;
 }
 
