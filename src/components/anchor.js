@@ -28,16 +28,16 @@ const Anchor = () => {
         document.documentElement.scrollTop = scrollTarget
         window.pageYOffset = scrollTarget
         */
-        document.getElementsByClassName('anchorlink')[idx].scrollIntoView({
-            behavior: "smooth",
-            block: 'center'
-        })
+        // document.getElementsByClassName('anchorlink')[idx].scrollIntoView({
+        //     behavior: "smooth",
+        //     block: 'start'
+        // })
+        let ele = document.getElementsByClassName('anchorlink')[idx]
+        window.scrollTo({ top: ele.offsetTop-30-50, left: 0, behavior: 'smooth'})
+        // window.scrollTo(0,ele.offsetTop-30-50)
         setPanelVisible(false)
     }
     const switchVisible = () => {
-        console.log(
-            'hi'
-        );
         setPanelVisible(!panelVisible)
     }
     return (
