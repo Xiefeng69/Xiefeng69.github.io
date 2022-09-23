@@ -10,7 +10,8 @@ const getPublicationInfo = (types) => {
             type: 'NLP',
             pdf: 'https://arxiv.org/abs/2209.04631',
             code: 'https://github.com/Xiefeng69/stance-detection-for-covid19-related-health-policies',
-            page: ''
+            page: '',
+            slide: ''
         },
         {
             author: "<span style='font-weight:bold'}>Feng Xie</span>, Zhong Zhang, Liang Li, Bin Zhou and Yusong Tan.",
@@ -21,7 +22,8 @@ const getPublicationInfo = (types) => {
             type: 'TSA',
             pdf: 'https://www.researchgate.net/publication/361523245_EpiGNN_Exploring_Spatial_Transmission_with_Graph_Neural_Network_for_Regional_Epidemic_Forecasting',
             code: 'https://github.com/Xiefeng69/EpiGNN',
-            page: '/EpiGNN'
+            page: '/EpiGNN',
+            slide: '/static/EpiGNN.pptx'
         },
         {
             author: "<span style='font-weight:bold'}>Feng Xie</span>, Zhong Zhang, Xuechen Zhao, Bin Zhou and Yusong Tan.",
@@ -32,7 +34,8 @@ const getPublicationInfo = (types) => {
             type: 'TSA',
             pdf: 'https://www.researchgate.net/publication/361098103_Inter-_and_Intra-Series_Embeddings_Fusion_Network_for_Epidemiological_Forecasting',
             code: 'https://github.com/Xiefeng69/SEFNet',
-            page: '/SEFNet'
+            page: '/SEFNet',
+            slide: ''
         },
     ]
     if (types == "all"){

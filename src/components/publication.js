@@ -88,6 +88,10 @@ const Publication = () => {
                                 {hasExtra(item.page)?(
                                      <a href={item.page}>[Page]</a>
                                 ):null}
+                                {hasExtra(item.slide)?(
+                                    <a href={item.slide} target="_blank">[Slide]</a>
+                                ):null}
+                                {/* style={{fontWeight:'bold'}} */}
                             </li>
                         )
                     })):
