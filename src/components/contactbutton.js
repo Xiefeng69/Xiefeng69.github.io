@@ -42,7 +42,7 @@ const ContactButton = () => {
                 <div style={{width: '20px'}}></div>
             </IsMobile>
             <IsMobile>
-                <a href="/static/xiefeng-resume-english.pdf" target="_blank" style={{color:'black', fontWeight:'bold'}}>[CV (English)]</a>
+                <a href="/static/Resume.pdf" target="_blank" style={{color:'black', fontWeight:'bold'}}>[CV (English)]</a>
             </IsMobile>
         </div>
     )

@@ -24,7 +24,7 @@ const Leftbar = () => {
                     Publication Gallary
                 </li>
                 <li>
-                    <a href="/static/xiefeng-resume-english.pdf" target="_blank" style={{color:'black', fontWeight:'bold'}}>[CV (English)]</a>
+                    <a href="/static/Resume.pdf" target="_blank" style={{color:'black', fontWeight:'bold'}}>[CV (English)]</a>
                 </li>
             </ul>
             <IsDesktop>

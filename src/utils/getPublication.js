@@ -23,7 +23,7 @@ const getPublicationInfo = (types) => {
             pdf: 'https://www.researchgate.net/publication/361523245_EpiGNN_Exploring_Spatial_Transmission_with_Graph_Neural_Network_for_Regional_Epidemic_Forecasting',
             code: 'https://github.com/Xiefeng69/EpiGNN',
             page: '/EpiGNN',
-            slide: '/static/EpiGNN.pptx'
+            slide: '/static/EpiGNN_presentation.pdf'
         },
         {
             author: "<span style='font-weight:bold'}>Feng Xie</span>, Zhong Zhang, Xuechen Zhao, Bin Zhou and Yusong Tan.",

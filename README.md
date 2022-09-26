@@ -4,6 +4,12 @@ You can visit my website by clicking [here](https://xiefeng69.github.io/).
 
 网址：`https://xiefeng69.github.io/`
 
+or scan the QR code (supported by [caoliao](https://cli.im/)):
+
+<img src="QRcode.png" width=40% />
+
+<!-- ![the QR code](QRcode.png) -->
+
 ## 🔍 Technologies Stack
 
 + Framework: [Gatsby](https://www.gatsbyjs.com)
