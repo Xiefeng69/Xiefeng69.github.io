@@ -20,7 +20,7 @@ const getPublicationInfo = (types) => {
             abbr: 'ECML-PKDD',
             ccf: 'CCF-B',
             type: 'TSA',
-            pdf: 'https://www.researchgate.net/publication/361523245_EpiGNN_Exploring_Spatial_Transmission_with_Graph_Neural_Network_for_Regional_Epidemic_Forecasting',
+            pdf: 'https://2022.ecmlpkdd.org/wp-content/uploads/2022/09/sub_829.pdf',
             code: 'https://github.com/Xiefeng69/EpiGNN',
             page: '/EpiGNN',
             slide: '/static/EpiGNN_presentation.pdf'
@@ -32,7 +32,7 @@ const getPublicationInfo = (types) => {
             abbr: 'SEKE2022',
             ccf: 'CCF-C',
             type: 'TSA',
-            pdf: 'https://www.researchgate.net/publication/361098103_Inter-_and_Intra-Series_Embeddings_Fusion_Network_for_Epidemiological_Forecasting',
+            pdf: 'http://dx.doi.org/10.18293/SEKE2022-109',
             code: 'https://github.com/Xiefeng69/SEFNet',
             page: '/SEFNet',
             slide: ''
