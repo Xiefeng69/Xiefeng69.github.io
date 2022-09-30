@@ -54,7 +54,7 @@ const Publication = () => {
     const [types, setTypes] = useState('all')
     return (
         <div>
-            <Subtitle title="Publications"></Subtitle>
+            <Subtitle title="Publications" subinfo="[* indicates equal contribution]"></Subtitle>
             <IsMobile>
                 <div style={{display:'flex'}}>
                     <div className={types=="TSA"?style.isActiveM:style.tagM} onClick={()=>setTypeManually('TSA', types, setTypes)}>Time Series Analysis</div>
