@@ -9,6 +9,7 @@ import Publication from '../components/publication';
 import Whatnew from '../components/whatnew';
 import IsMobile from '../utils/ismobile';
 import Friendship from '../components/Friendlink';
+import Service from '../components/service';
 
 const Right = () => {
     return (
@@ -19,6 +20,7 @@ const Right = () => {
             <Whatnew />
             <Experience />
             <Publication />
+            <Service/>
             <Project />
             <Award />
             <IsMobile>
