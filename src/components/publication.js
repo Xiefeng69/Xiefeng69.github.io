@@ -57,14 +57,14 @@ const Publication = () => {
             <Subtitle title="Publications" subinfo="[* indicates equal contribution]"></Subtitle>
             <IsMobile>
                 <div style={{display:'flex'}}>
-                    <div className={types=="TSA"?style.isActiveM:style.tagM} onClick={()=>setTypeManually('TSA', types, setTypes)}>Time Series Analysis</div>
+                    <div className={types=="TSA"?style.isActiveM:style.tagM} onClick={()=>setTypeManually('TSA', types, setTypes)}>Data Science</div>
                     <div className={types=="NLP"?style.isActiveM:style.tagM} onClick={()=>setTypeManually('NLP', types, setTypes)}>NLP</div>
                     <div className={types=="KG"?style.isActiveM:style.tagM} onClick={()=>setTypeManually('KG', types, setTypes)}>Knowledge Graph</div>
                 </div>
             </IsMobile>
             <IsDesktop>
                 <div style={{display:'flex'}}>
-                    <div className={types=="TSA"?style.isActive:style.tag} onClick={()=>setTypeManually('TSA', types, setTypes)}>Time Series Analysis</div>
+                    <div className={types=="TSA"?style.isActive:style.tag} onClick={()=>setTypeManually('TSA', types, setTypes)}>Data Science</div>
                     <div className={types=="NLP"?style.isActive:style.tag} onClick={()=>setTypeManually('NLP', types, setTypes)}>Natural Language Processing</div>
                     <div className={types=="KG"?style.isActive:style.tag} onClick={()=>setTypeManually('KG', types, setTypes)}>Knowledge Graph</div>
                 </div>
@@ -98,24 +98,15 @@ const Publication = () => {
                     (<div>Coming Soooooooon!</div>)
                 }
             </ul>
-            {/* <ul className={style.contrainer} style={{lineHeight:1.4, marginTop:'10px'}}>
+            <p style={{fontWeight:'bold', fontSize:'1rem', marginLeft: '10px'}}>Other Publications</p>
+            <ul style={{fontSize:'1rem'}}>
                 <li>
-                    <span style={{fontWeight:'bold'}}>Feng Xie</span>, Zhong Zhang, Liang Li, Bin Zhou and Yusong Tan.
-                    &nbsp;"EpiGNN: Exploring Spatial Transmission with Graph Neural Network for Regional Epidemic Forecasting".
-                    &nbsp;<span style={{fontStyle:'italic'}}>The European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases</span>, 
-                    &nbsp;<span style={{fontWeight:'bold'}}>ECML-PKDD </span>(CCF-B)
-                    &nbsp;<a href="https://www.researchgate.net/publication/361523245_EpiGNN_Exploring_Spatial_Transmission_with_Graph_Neural_Network_for_Regional_Epidemic_Forecasting" target="_blank">[PDF]</a>
-                    &nbsp;<a href="https://github.com/Xiefeng69/EpiGNN" target="_blank">[Code]</a>
+                    <span>Hayat Dino Bedru, Chen Zhang, <span style={{fontWeight:'bold'}}>Feng Xie</span>, Shuo Yu, Iftikhar Hussain</span>
+                    &nbsp;<span>"CLARA: Citation and Similarity-based Author Ranking". </span>
+                    <span style={{fontStyle:'italic'}}>Scientometrics. </span>
+                    <span>(This work was done when I was in DUT)</span>
                 </li>
-                <li>
-                <span style={{fontWeight:'bold'}}>Feng Xie</span>, Zhong Zhang, Xuechen Zhao, Bin Zhou and Yusong Tan.
-                    &nbsp;"Inter- and Intra-Series Embeddings Fusion Network for Epidemiological Forecasting".
-                    &nbsp;<span style={{fontStyle:'italic'}}>The 34th International Conference on Software Engineering & Knowledge Engineering</span>,
-                    &nbsp;<span style={{fontWeight:'bold'}}>SEKE2022</span> (CCF-C)
-                    &nbsp;<a href="https://www.researchgate.net/publication/361098103_Inter-_and_Intra-Series_Embeddings_Fusion_Network_for_Epidemiological_Forecasting" target="_blank">[PDF]</a>
-                    &nbsp;<a href="https://github.com/Xiefeng69/SEFNet" target="_blank">[Code]</a>
-                </li>
-            </ul> */}
+            </ul>
         </div>
     )
 }

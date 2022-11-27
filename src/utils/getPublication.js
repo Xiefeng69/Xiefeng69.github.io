@@ -1,18 +1,18 @@
 const getPublicationInfo = (types) => {
     //static/miuiplus.webp
     const pub_list = [
-        {
-            author: "<span style='font-weight:bold'}>Feng Xie</span>*, Zhong Zhang*, Xuechen Zhao, Jiaying Zou, Bin Zhou and Yusong Tan.",
-            title: 'Adversarial Learning-based Stance Classifier for COVID-19-related Health Policies',
-            venues: 'preprint',
-            abbr: 'arxiv',
-            ccf: 'Under review',
-            type: 'NLP',
-            pdf: 'https://arxiv.org/abs/2209.04631',
-            code: 'https://github.com/Xiefeng69/stance-detection-for-covid19-related-health-policies',
-            page: '',
-            slide: ''
-        },
+        // {
+        //     author: "<span style='font-weight:bold'}>Feng Xie</span>*, Zhong Zhang*, Xuechen Zhao, Jiaying Zou, Bin Zhou and Yusong Tan.",
+        //     title: 'Adversarial Learning-based Stance Classifier for COVID-19-related Health Policies',
+        //     venues: 'preprint',
+        //     abbr: 'arxiv',
+        //     ccf: 'Under review',
+        //     type: 'NLP',
+        //     pdf: 'https://arxiv.org/abs/2209.04631',
+        //     code: 'https://github.com/Xiefeng69/stance-detection-for-covid19-related-health-policies',
+        //     page: '',
+        //     slide: ''
+        // },
         {
             author: "<span style='font-weight:bold'}>Feng Xie</span>, Zhong Zhang, Liang Li, Bin Zhou and Yusong Tan.",
             title: 'EpiGNN: Exploring Spatial Transmission with Graph Neural Network for Regional Epidemic Forecasting',

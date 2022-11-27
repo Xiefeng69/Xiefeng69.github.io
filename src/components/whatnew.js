@@ -10,16 +10,19 @@ const Whatnew = () => {
             <Subtitle title="What's New" color="red"></Subtitle>
             <ul className={style.contrainer} style={{lineHeight:1.3}}>
                 <li>
-                    <span style={{fontWeight:'bold'}}>[Sep 07, 2022]</span> 🎉 I received the Outstanding Student Award of National University of Defense Technology.
+                    <span style={{fontWeight:'bold'}}>[Nov 10, 2022]</span> 🎉 One paper got accepted for <a style={{color:'#000'}} href="https://www.springer.com/journal/11192" target="_blank">Scientometrics</a>.
+                </li>
+                <li>
+                    <span style={{fontWeight:'bold'}}>[Sep 07, 2022]</span> 🎉 I received the Outstanding Student Award of NUDT.
                 </li>
                 <li>
                     <span style={{fontWeight:'bold'}}>[Aug 29, 2022]</span> 👏 We released the competition - Social Network Alignment under Noise Intervention (带噪音的社交网络对齐) at CCF BDCI 2022, welcome to the competition! <a href="https://www.datafountain.cn/competitions/598" target="_blank">[Page]</a> <a href="https://github.com/Xiefeng69/BDCI2022-Network-Alignment-Competition" target="_blank">[GitHub]</a>
                 </li>
                 <li>
-                    <span style={{fontWeight:'bold'}}>[Jun 15, 2022]</span> 🎉 One paper got accepted for <a style={{color:'#000'}} href="https://2022.ecmlpkdd.org/" target="_blank">ECML-PKDD 2022</a> (CCF-B). <a href="/EpiGNN">[Page]</a>
+                    <span style={{fontWeight:'bold'}}>[Jun 15, 2022]</span> 🎉 One paper got accepted for <a style={{color:'#000'}} href="https://2022.ecmlpkdd.org/" target="_blank">ECML-PKDD 2022</a>. <a href="/EpiGNN">[Page]</a>
                 </li>
                 <li>
-                    <span style={{fontWeight:'bold'}}>[Apr 21, 2022]</span> 🎉 One paper got accepted for <a style={{color:'#000'}} href="http://ksiresearch.org/seke/seke22.html" target="_blank">SEKE 2022</a> (CCF-C). <a href="/SEFNet">[Page]</a>
+                    <span style={{fontWeight:'bold'}}>[Apr 21, 2022]</span> 🎉 One paper got accepted for <a style={{color:'#000'}} href="http://ksiresearch.org/seke/seke22.html" target="_blank">SEKE 2022</a>. <a href="/SEFNet">[Page]</a>
                 </li>
             </ul>
         </div>

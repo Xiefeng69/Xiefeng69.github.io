@@ -36,7 +36,7 @@ a:hover {
     }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1199px) {
+@media only screen and (min-width: 900px) and (max-width: 1089px) {
     html {
         font-size: 16px;
     }
@@ -50,12 +50,12 @@ a:hover {
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1090px) {
     html {
         font-size: 16px;
     }
     .main {
-        width: 1160px;
+        width: 1050px;
         margin: 0 auto;
         flex-direction: row;
     }
