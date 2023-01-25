@@ -31,7 +31,7 @@ const Experience = () => {
 
             <div className={style.container} style={{marginBottom: '10px'}}>
                 <div>
-                    <StaticImage className='logo' src="../images/dut.png" alt="DUT" />
+                    <StaticImage className='logo' src="../images/dut.png" alt="DLUT" />
                 </div>
                 <div className={style.infocontainer}>
                     <span className={style.subinfo}>2017.09 - 2021.06</span>

@@ -77,8 +77,18 @@ const Publication = () => {
                             <li key={index} attr={item}>
                                 <span dangerouslySetInnerHTML={{__html: item.author}}></span>
                                 &nbsp;<span>"{item.title}". </span>
-                                <span style={{fontStyle:'italic'}}>{item.venues}, </span>
-                                <span style={{fontWeight:'bold'}}>{item.abbr} </span>({item.ccf})&nbsp; 
+                                {hasExtra(item.venues)?(
+                                    <span style={{fontStyle:'italic'}}>{item.venues}, </span>
+                                ):null}
+                                {hasExtra(item.abbr)?(
+                                    <span style={{fontWeight:'bold'}}>{item.abbr} </span>
+                                ):null}
+                                {hasExtra(item.ccf)?(
+                                    <span> ({item.ccf}) </span>
+                                ):null}
+                                {hasExtra(item.comment)?(
+                                    <span>({item.comment}) </span>
+                                ):null}
                                 {hasExtra(item.pdf)?(
                                     <a href={item.pdf} target="_blank">[PDF]</a>
                                 ):null}
@@ -101,10 +111,11 @@ const Publication = () => {
             <p style={{fontWeight:'bold', fontSize:'1rem', marginLeft: '10px'}}>Other Publications</p>
             <ul style={{fontSize:'1rem'}}>
                 <li>
-                    <span>Hayat Dino Bedru, Chen Zhang, <span style={{fontWeight:'bold'}}>Feng Xie</span>, Shuo Yu, Iftikhar Hussain</span>
+                    <span>Hayat Dino Bedru, Chen Zhang, <span style={{fontWeight:'bold'}}>Feng Xie</span>, Shuo Yu, Iftikhar Hussain.</span>
                     &nbsp;<span>"CLARA: Citation and Similarity-based Author Ranking". </span>
-                    <span style={{fontStyle:'italic'}}>Scientometrics. </span>
-                    <span>(This work was done when I was in DUT)</span>
+                    <span style={{fontWeight:'bold'}}>Scientometrics </span>
+                    <a href="https://doi.org/10.1007/s11192-022-04590-5" target="_blank">[PDF]</a>
+                    <span> (This work was done when I was in DLUT)</span>
                 </li>
             </ul>
         </div>

@@ -8,7 +8,7 @@ const Leftbar = () => {
     return (
         <div className={style.container}>
             <div className={style.stickycontainer}>
-                <StaticImage src="../images/avatar.png" alt="avatar"/>
+                <StaticImage src="../images/avatar.png" alt="avatar" style={{width: "170px", borderRadius: "0%", marginLeft: "auto", marginRight: "auto"}}/>
                 <p className={style.name}>Xie Feng</p>
                 <ContactButton />
                 <ul style={{marginTop: '16px', fontSize: '1.0rem', lineHeight: 1}}>
@@ -22,7 +22,7 @@ const Leftbar = () => {
                         <a href="https://www.researchgate.net/profile/Feng-Xie-42/research" target="_blank" style={{color:'black'}}>Research Gate</a>
                     </li>
                     <li>
-                        Publication Gallary
+                        Publication Gallery
                     </li>
                     <li>
                         <a href="/static/Resume.pdf" target="_blank" style={{color:'black', fontWeight:'bold'}}>[CV (English)]</a>

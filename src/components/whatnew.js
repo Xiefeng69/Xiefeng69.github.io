@@ -10,6 +10,12 @@ const Whatnew = () => {
             <Subtitle title="What's New" color="red"></Subtitle>
             <ul className={style.contrainer} style={{lineHeight:1.3}}>
                 <li>
+                    <span style={{fontWeight:'bold'}}>[Jan 15, 2023]</span> 🎉 One paper got accepted for <a style={{color:'#000'}} href="http://www.tjudb.cn/dasfaa2023/" target="_blank">DASFAA 2023</a>.
+                </li>
+                <li>
+                    <span style={{fontWeight:'bold'}}>[Dec 26, 2022]</span> 🎉 One paper got accepted for <a style={{color:'#000'}} href="https://www.siam.org/conferences/cm/conference/sdm23" target="_blank">SDM 2023</a>.
+                </li>
+                <li>
                     <span style={{fontWeight:'bold'}}>[Nov 10, 2022]</span> 🎉 One paper got accepted for <a style={{color:'#000'}} href="https://www.springer.com/journal/11192" target="_blank">Scientometrics</a>.
                 </li>
                 <li>

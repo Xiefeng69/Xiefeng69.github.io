@@ -29,13 +29,15 @@ const ContactButton = () => {
             <IsMobile>
                 <div style={{width: '20px'}}></div> 
             </IsMobile>
-            <div onClick={() => {copyInfo('Wechat', 'xf16943')}} className={style.containeritem}>
-                <StaticImage src="../images/wechat.png" alt="wechat" />
+            <div className={style.containeritem}>
+                <a href="https://orcid.org/0000-0003-3944-236X" target="_blank">
+                    <StaticImage src="../images/orcid.png" alt="github" />
+                </a>
             </div>
             <IsMobile>
                 <div style={{width: '20px'}}></div>
             </IsMobile>
-            <div onClick={() => copyInfo('email', 'xiefeng0526@foxmail.com')} className={style.containeritem}>
+            <div onClick={() => copyInfo('email', 'xiefeng@nudt.com')} className={style.containeritem}>
                 <StaticImage src="../images/email.png" alt="email" />
             </div>
             <IsMobile>
