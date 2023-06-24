@@ -9,7 +9,7 @@ const Leftbar = () => {
         <div className={style.container}>
             <div className={style.stickycontainer}>
                 <StaticImage src="../images/avatar.png" alt="avatar" style={{width: "170px", borderRadius: "0%", marginLeft: "auto", marginRight: "auto"}}/>
-                <p className={style.name}>Xie Feng</p>
+                <p className={style.name}>Lebby.Xie</p>
                 <ContactButton />
                 <ul style={{marginTop: '16px', fontSize: '1.0rem', lineHeight: 1}}>
                     <li>
