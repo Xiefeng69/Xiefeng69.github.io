@@ -52,7 +52,7 @@ const Anchor = () => {
                 <div className={style.anchorNav}>
                     <div className={style.anchorInfo} onClick={()=>{window.open("/","_self")}}>
                         <StaticImage src='../images/avatar.png' style={{width: '34px'}} imgStyle={{borderRadius: '50%'}} alt="avatar" />
-                        <span style={{fontWeight:'bold', fontSize:'1.2rem', marginLeft: '8px'}}>Xiefeng</span>
+                        <span style={{fontWeight:'bold', fontSize:'1.2rem', marginLeft: '8px'}}>Lebby.Xie</span>
                     </div>
                     <div className={style.anchorSwitch} onClick={switchVisible}>
                         <StaticImage src='../images/list.png' style={{width: '24px'}} alt="list" />
