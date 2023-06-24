@@ -4,7 +4,7 @@ import Anchor from './anchor';
 import Introduction from './introduction';
 import * as style from './topbar.module.css';
 
-const Topbar = () => {
+const Topbar = (props) => {
     return (
         <div>
             <Anchor />
@@ -12,7 +12,7 @@ const Topbar = () => {
                 <div className={style.avatarcontainer}>
                     <StaticImage className={style.avatar} imgStyle={{borderRadius: '50%'}} src="../images/avatar.png" />
                 </div>
-                <Introduction />
+                {props.content != "page" ? <Introduction /> : null}
             </div>
         </div>
     )

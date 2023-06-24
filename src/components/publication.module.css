@@ -1,12 +1,12 @@
 .contrainer {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .tag {
     background: #999999;
     margin-left: 9px;
     margin-right: 9px;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 2px 6px;
     font-weight: bold;
     color: white;
@@ -17,7 +17,7 @@
     background: #666666;
     margin-left: 9px;
     margin-right: 9px;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 2px 6px;
     font-weight: bold;
     color: white;
@@ -28,7 +28,7 @@
     background: #999999;
     margin-left: 6px;
     margin-right: 6px;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 2px 4px;
     font-weight: bold;
     color: white;
@@ -39,9 +39,39 @@
     background: #666666;
     margin-left: 6px;
     margin-right: 6px;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 2px 4px;
     font-weight: bold;
     color: white;
     cursor: pointer;
+}
+
+.linkbutton {
+    background: #3a87ad;
+    color: white;
+    font-size: 0.85rem;
+    padding: 0.2rem 0.2rem;
+    border-radius: 10%;
+    margin-right: 4px;
+}
+
+.linkbutton a {
+    color: white;
+}
+
+.linkbutton a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.collapseContainer {
+    font-size: 1rem;
+}
+
+:global(.ant-collapse-header) {
+    padding: 0px 10px 10px 8px !important;
+}
+
+:global(.ant-collapse-content-box){
+    padding: 0px !important;
 }

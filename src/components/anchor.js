@@ -28,16 +28,16 @@ const Anchor = () => {
         document.documentElement.scrollTop = scrollTarget
         window.pageYOffset = scrollTarget
         */
-        document.getElementsByClassName('anchorlink')[idx].scrollIntoView({
-            behavior: "smooth",
-            block: 'center'
-        })
+        // document.getElementsByClassName('anchorlink')[idx].scrollIntoView({
+        //     behavior: "smooth",
+        //     block: 'start'
+        // })
+        let ele = document.getElementsByClassName('anchorlink')[idx]
+        window.scrollTo({ top: ele.offsetTop-30-50, left: 0, behavior: 'smooth'})
+        // window.scrollTo(0,ele.offsetTop-30-50)
         setPanelVisible(false)
     }
     const switchVisible = () => {
-        console.log(
-            'hi'
-        );
         setPanelVisible(!panelVisible)
     }
     return (
@@ -50,7 +50,7 @@ const Anchor = () => {
             }
             <div className={style.anchorContainer}>
                 <div className={style.anchorNav}>
-                    <div className={style.anchorInfo}>
+                    <div className={style.anchorInfo} onClick={()=>{window.open("/","_self")}}>
                         <StaticImage src='../images/avatar.png' style={{width: '34px'}} imgStyle={{borderRadius: '50%'}} alt="avatar" />
                         <span style={{fontWeight:'bold', fontSize:'1.2rem', marginLeft: '8px'}}>Xiefeng</span>
                     </div>

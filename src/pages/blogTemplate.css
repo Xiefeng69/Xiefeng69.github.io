@@ -7,20 +7,25 @@ img {
     margin: 0;
 }
 
-a {
-    color: #214C9A;
-}
-
-a:hover {
-    color: #214C9A;
-}
-
 .main {
     /*background-color: yellow;*/
     display: flex;
     flex-direction: column;
-    font-family: Optima, "Times New Roman", Avenir, Calibri, Arial, sans-serif;
+    font-family: 'Times New Roman', "PingFang SC", "Microsoft YaHei", sans-serif;
     color: #000;
+}
+
+.rightcontainer {
+    width: 100%;
+    padding: 10px 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 900px) {
+    .rightcontainer {
+        padding: 40px 15px 0 15px;
+    }
 }
 
 @media only screen and (max-width: 899px) {
@@ -36,7 +41,7 @@ a:hover {
     }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1089px) {
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
     html {
         font-size: 16px;
     }
@@ -50,12 +55,12 @@ a:hover {
     }
 }
 
-@media only screen and (min-width: 1090px) {
+@media only screen and (min-width: 1200px) {
     html {
         font-size: 16px;
     }
     .main {
-        width: 1050px;
+        width: 1160px;
         margin: 0 auto;
         flex-direction: row;
     }

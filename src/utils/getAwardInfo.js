@@ -1,12 +1,20 @@
 const getAwardInfo = () => {
     return [
         {
+            'time': '2023.05',
+            'name': 'Student Registration Award of PAKDD 2023'
+        },
+        {
+            'time': '2023.03',
+            'name': 'Second Class Academic Scholarship, National University of Defense Technology'
+        },
+        {
             'time': '2022.09',
             'name': 'Outstanding Student Award of National University of Defense Technology'
         },
         {
-            'time': '2021.11',
-            'name': 'First-Class Freshman Scholarship, National University of Defense Technology'
+        'time': '2021.11',
+            'name': 'First Class Freshman Scholarship, National University of Defense Technology'
         },
         {
             'time': '2021.05',

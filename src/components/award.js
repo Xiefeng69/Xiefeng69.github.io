@@ -9,7 +9,7 @@ const Award = () => {
             <ul style={{lineHeight:1}}>
                 {
                     getAwardInfo().map((item, index) => {
-                        return (<li style={{fontSize:'1.1rem'}} key={index}>{`${item.time}, ${item.name}.`}</li>)   
+                        return (<li style={{fontSize:'1rem'}} key={index}>{`${item.time}, ${item.name}.`}</li>)   
                     })
                 }
             </ul>
