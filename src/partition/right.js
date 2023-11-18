@@ -23,9 +23,9 @@ const Right = () => {
             <Service/>
             <Project />
             <Award />
-            <IsMobile>
+            {/* <IsMobile>
                 <Friendship />
-            </IsMobile>
+            </IsMobile> */}
         </div>
     )
 }

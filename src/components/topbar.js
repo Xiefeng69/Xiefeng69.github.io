@@ -9,9 +9,10 @@ const Topbar = (props) => {
         <div>
             <Anchor />
             <div className={style.container}>
+                {props.content != "page" ?
                 <div className={style.avatarcontainer}>
                     <StaticImage className={style.avatar} imgStyle={{borderRadius: '50%'}} src="../images/avatar.png" />
-                </div>
+                </div>: null}
                 {props.content != "page" ? <Introduction /> : null}
             </div>
         </div>

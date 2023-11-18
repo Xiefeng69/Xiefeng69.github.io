@@ -148,6 +148,12 @@ const Publication = () => {
                 <Panel header="Other Publications">
                     <ul style={{fontSize:'.9rem'}}>
                         <li>
+                            <span>Haiyang Wang, Ye Wang, Xin Song, Bin Zhou, Xuechen Zhao, <span style={{fontWeight:'bold'}}>Feng Xie</span>.</span>
+                            &nbsp;<span>"Quantifying controversy from stance, sentiment, offensiveness and sarcasm: a fine-grained controversy intensity measurement framework on a Chinese dataset". </span>
+                            <span style={{fontWeight:'bold'}}>World Wide Web Journal </span>
+                            <a href="https://link.springer.com/article/10.1007/s11280-023-01191-x" target="_blank">[PDF]</a>
+                        </li>
+                        <li>
                             <span>Yuying Liao, Le Ma, Bin Zhou, Xuechen Zhao, <span style={{fontWeight:'bold'}}>Feng Xie</span>.</span>
                             &nbsp;<span>"DraftFed: a Draft-based Personalized Federated Learning Approach for Heterogeneous Convolutional Neural Networks". </span>
                             <span style={{fontWeight:'bold'}}>IEEE Transactions on Mobile Computing </span>

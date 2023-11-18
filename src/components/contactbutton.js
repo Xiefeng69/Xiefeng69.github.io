@@ -31,15 +31,25 @@ const ContactButton = () => {
             </IsMobile>
             <div className={style.containeritem}>
                 <a href="https://orcid.org/0000-0003-3944-236X" target="_blank">
-                    <StaticImage src="../images/orcid.png" alt="github" />
+                    <StaticImage src="../images/orcid.png" alt="orcid" />
                 </a>
             </div>
             <IsMobile>
                 <div style={{width: '20px'}}></div>
             </IsMobile>
-            <div onClick={() => copyInfo('email', 'xiefeng@nudt.com')} className={style.containeritem}>
-                <StaticImage src="../images/email.png" alt="email" />
+            <div className={style.containeritem}>
+                <a href="https://scholar.google.com/citations?user=nF5tqy4AAAAJ" target="_blank">
+                    <StaticImage src="../images/gscholar.png" alt="gscholar" />
+                </a>
             </div>
+            <IsMobile>
+                <div style={{width: '20px'}}></div>
+            </IsMobile>
+            <IsMobile>
+                <div onClick={() => copyInfo('email', 'xiefeng@nudt.com')} className={style.containeritem}>
+                    <StaticImage src="../images/email.png" alt="email" />
+                </div>
+            </IsMobile>
             <IsMobile>
                 <div style={{width: '20px'}}></div>
             </IsMobile>

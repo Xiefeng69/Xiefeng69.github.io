@@ -9,6 +9,17 @@ const Experience = () => {
             <Subtitle title="Experiences" />
             <div className={style.container}>
                 <div>
+                    <StaticImage className='logo' src="../images/vipshop.jpeg" alt="VIPSHOP" />
+                </div>
+                <div className={style.infocontainer}>
+                    <span className={style.subinfo}>2023.06 - 2023.09</span>
+                    <br />
+                    <span className={style.maininfo}>VIPSHOP, Intelligent Operations Department, <i>NLP Intern.</i></span>
+                </div>
+            </div>
+
+            <div className={style.container}>
+                <div>
                     <StaticImage className='logo' src="../images/nudt.png" alt="NUDT" />
                 </div>
                 <div className={style.infocontainer}>
@@ -31,7 +42,7 @@ const Experience = () => {
 
             <div className={style.container} style={{marginBottom: '10px'}}>
                 <div>
-                    <StaticImage className='logo' src="../images/dut.png" alt="DLUT" />
+                    <StaticImage className='logo' src="../images/dlut.png" alt="DLUT" />
                 </div>
                 <div className={style.infocontainer}>
                     <span className={style.subinfo}>2017.09 - 2021.06</span>

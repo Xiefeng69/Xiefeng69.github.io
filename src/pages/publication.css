@@ -1,0 +1,55 @@
+.pub_container {
+    background-color: white;
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.linkbutton {
+    background: #3a87ad;
+    color: white;
+    font-size: 0.85rem;
+    padding: 0.2rem 0.2rem;
+    border-radius: 10%;
+    margin-right: 4px;
+}
+
+.linkbutton a {
+    color: white;
+}
+
+.linkbutton a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.tldr {
+    font-size: 0.8rem;
+    background-color: #F5F6F7;
+    padding: .2rem .1rem;
+    border-radius: 20%;
+}
+
+.tldr_info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info {
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    font-size: .75rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 50%;
+}

@@ -15,6 +15,14 @@ img {
     color: #000;
 }
 
+.main-center {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', "PingFang SC", "Microsoft YaHei", sans-serif;
+    color: #000;
+}
+
 .rightcontainer {
     width: 100%;
     padding: 10px 15px 0 15px;
@@ -22,7 +30,7 @@ img {
     flex-direction: column;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 899px) {
     .rightcontainer {
         padding: 40px 15px 0 15px;
     }
@@ -37,11 +45,13 @@ img {
     }
     .logo {
         width: 44px;
-        
+    }
+    .main-center {
+        width: 85%;
     }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1199px) {
+@media only screen and (min-width: 899px) and (max-width: 1199px) {
     html {
         font-size: 16px;
     }
@@ -55,7 +65,7 @@ img {
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1199px) {
     html {
         font-size: 16px;
     }

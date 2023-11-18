@@ -1,6 +1,11 @@
 const getAwardInfo = () => {
     return [
         {
+            'time': '2023.11',
+            'name': 'National Scholarship (for master students)'
+            // , Ministry of Education of the People’s Republic of China'
+        },
+        {
             'time': '2023.05',
             'name': 'Student Registration Award of PAKDD 2023'
         },
@@ -14,7 +19,7 @@ const getAwardInfo = () => {
         },
         {
         'time': '2021.11',
-            'name': 'First Class Freshman Scholarship, National University of Defense Technology'
+            'name': 'First Class Freshman Scholarship of National University of Defense Technology'
         },
         {
             'time': '2021.05',
@@ -22,7 +27,7 @@ const getAwardInfo = () => {
         },
         {
             'time': '2020.10',
-            'name': 'National Scholarship, Ministry of Education of the People’s Republic of China'
+            'name': 'National Scholarship (for undergraduate students)'
         },
         {
             'time': '2020.09',
