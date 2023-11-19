@@ -19,7 +19,7 @@ p {
 
 .avatar {
   width: 180px;
-  height: 180px;
+  /* height: 180px; */
 }
 
 /* 更加细粒度地适配iPhone等移动设备 */

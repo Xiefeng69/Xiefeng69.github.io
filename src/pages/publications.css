@@ -40,6 +40,12 @@
     margin-bottom: 10px;
 }
 
+.tldr_card {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: rgb(245, 245, 245);
+}
+
 .info {
     background-color: orange;
     display: flex;

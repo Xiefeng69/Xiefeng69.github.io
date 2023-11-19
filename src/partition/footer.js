@@ -20,7 +20,7 @@ const Footer = () => {
                 <span>Powered by</span>
                 &nbsp;
                 <a href="https://www.gatsbyjs.cn/" target="_blank">
-                    <StaticImage src='../images/gatsby-tag.png' style={{width: '80px'}} />
+                    <StaticImage src='../images/gatsby-tag.png' style={{width: '80px'}} alt="gatsby.js-logo" />
                 </a>
             </div>
             <div className={style.blocktwo}>

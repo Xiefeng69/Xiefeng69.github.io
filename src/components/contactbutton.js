@@ -9,7 +9,7 @@ const ContactButton = () => {
         //document.execCommand
         navigator.clipboard.writeText(info).then(()=>{
             message.success({
-                content: `My ${type} has been copied`,
+                content: `The ${type} has been copied`,
                 duration: 2,
                 style: {
                     marginTop: '5vh'
@@ -46,7 +46,7 @@ const ContactButton = () => {
                 <div style={{width: '20px'}}></div>
             </IsMobile>
             <IsMobile>
-                <div onClick={() => copyInfo('email', 'xiefeng@nudt.com')} className={style.containeritem}>
+                <div onClick={() => copyInfo('E-mail', 'xiefeng@nudt.edu.cn')} className={style.containeritem}>
                     <StaticImage src="../images/email.png" alt="email" />
                 </div>
             </IsMobile>

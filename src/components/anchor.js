@@ -55,7 +55,7 @@ const Anchor = () => {
                         <span style={{fontWeight:'bold', fontSize:'1.2rem', marginLeft: '8px'}}>Lebby.Xie</span>
                     </div>
                     <div className={style.anchorSwitch} onClick={switchVisible}>
-                        <StaticImage src='../images/list.png' style={{width: '24px'}} alt="list" />
+                        <StaticImage src='../images/list.png' style={{width: '24px'}} alt="list-icon" />
                     </div>
                 </div>
                 <div>

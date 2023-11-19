@@ -11,7 +11,7 @@ const Topbar = (props) => {
             <div className={style.container}>
                 {props.content != "page" ?
                 <div className={style.avatarcontainer}>
-                    <StaticImage className={style.avatar} imgStyle={{borderRadius: '50%'}} src="../images/avatar.png" />
+                    <StaticImage className={style.avatar} src="../images/avatar_long.png" alt="avatar" />
                 </div>: null}
                 {props.content != "page" ? <Introduction /> : null}
             </div>

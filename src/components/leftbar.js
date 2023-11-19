@@ -20,13 +20,13 @@ const Leftbar = () => {
                         Changsha, China
                     </li>
                     <li>
-                        <a href="mailto:xiefeng@nudt.edu.cn">xiefeng@nudt.edu.cn</a>
+                        <a href="mailto:xiefeng@nudt.edu.cn" style={{color:'#000'}}>xiefeng@nudt.edu.cn</a>
                     </li>
                     <li>
-                        <a href="https://www.researchgate.net/profile/Feng-Xie-42/research" target="_blank">ResearchGate</a>
+                        <a href="https://www.researchgate.net/profile/Feng-Xie-42/research" target="_blank" style={{color:'#000'}}>ResearchGate</a>
                     </li>
                     <li>
-                        Publications
+                        <a href="/publications" target="_blank" style={{color:'#000'}}>Publications</a>
                     </li>
                     <li>
                         <a href="/static/Resume.pdf" target="_blank" style={{color:'black', fontWeight:'bold'}}>[CV (English)]</a>
